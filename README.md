@@ -13,7 +13,18 @@ This repository contains scripts and datasets used to make a visualization of [C
   - downloads report of each accident/incident/serious incident
 - data
   - accidents.csv, incidents.csv, serious_incidents.csv
-    
+    - contains aircraft_registration, aircraft_type, date, place of occurrence, type of occurrence, and report data of accidents, incidents, and serious incidents
+  - report.csv
+    - contains report links, report in pdf version, and report in text version
+- pdf_txt_files
+  - pdfFiles.7z 
+    - zipped pdf files of report
+  - downloadPdf.sh
+    - script used to download pdf files
+  - report.txt
+    - contains link of reports
+  - turnPdfToTxt.sh
+    - script used to convert pdf to text
 # Tools used
 - Jupyter
 - Tableau
